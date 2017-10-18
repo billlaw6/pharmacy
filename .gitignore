@@ -1,0 +1,6 @@
+migrations/
+__pycache__/
+*.pyc
+db.sqlite3
+pharmacy_frontend/
+
