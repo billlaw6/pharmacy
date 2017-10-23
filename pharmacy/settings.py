@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'dicts.apps.DictsConfig',
 ]
 
 MIDDLEWARE = [
@@ -79,6 +80,26 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'sqlserver_pymssql',
+#         'HOST': '10.2.208.38',
+#         'NAME': 'test',
+#         'USER': 'sa',
+#         'PASSWORD': '08110010',
+#     }
+# }
+
+# DATABASES = {
+#     'default': {
+#         'NAME': 'test',
+#         'ENGINE': 'sqlserver_ado',
+#         'HOST': '10.2.208.38\ms2008',
+#         'USER': 'sa',
+#         'PASSWORD': '08110010',
+#     }
+# }
 
 
 # Password validation
